@@ -16,9 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@nx-shared-lib/card": ["lib/shared-card/src/index.ts"],
-      "cart/Routes": ["cart/src/app/remote-entry/entry.routes.ts"],
-      "product/Module": ["product/src/remote-entry.ts"],
-      "shop/Routes": ["shop/src/app/remote-entry/entry.routes.ts"]
+      "about/Routes": ["apps/about/src/app/remote-entry/entry.routes.ts"],
+      "cart/Routes": ["apps/cart/src/app/remote-entry/entry.routes.ts"],
     }
   },
   "exclude": ["node_modules", "tmp"]
