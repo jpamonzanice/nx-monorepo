@@ -63,6 +63,8 @@
     "typescript": "~5.4.2"
   },
   "dependencies": {
+    "@angular-architects/module-federation-runtime": "^18.0.2",
+    "@angular-architects/module-federation-tools": "^18.0.2",
     "@angular/animations": "~18.0.0",
     "@angular/common": "~18.0.0",
     "@angular/compiler": "~18.0.0",
