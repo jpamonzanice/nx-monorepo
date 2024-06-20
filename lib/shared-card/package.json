@@ -1,0 +1,9 @@
+{
+  "name": "@nx-shared-lib/card",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^18.0.0",
+    "@angular/core": "^18.0.0"
+  },
+  "sideEffects": false
+}
