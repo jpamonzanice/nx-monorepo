@@ -1,10 +1,11 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { LibSharedCardComponent } from '@nx-shared-lib/card';
 
 @Component({
   selector: 'app-nx-welcome',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, LibSharedCardComponent],
   template: `
     <!--
      * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -434,6 +435,10 @@ import { CommonModule } from '@angular/common';
             <span> Hello there, </span>
             Welcome about 👋
           </h1>
+        </div>
+        <div>
+          <span>Loading library from Cart project</span>
+          <lib-shared-card></lib-shared-card>
         </div>
         <!--  HERO  -->
         <div id="hero" class="rounded">

@@ -2,7 +2,10 @@
   "name": "@nx-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start-all": "npx nx run store:serve",
+    "start-all:dev": "npx nx run store:serve --devRemotes=product,cart,about"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/build-angular": "~18.0.0",
