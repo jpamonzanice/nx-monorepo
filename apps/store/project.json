@@ -1,5 +1,6 @@
 {
   "name": "store",
+  "implicitDependencies": ["about", "product", "cart"],
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
@@ -66,7 +67,8 @@
           "buildTarget": "store:build:production"
         },
         "development": {
-          "buildTarget": "store:build:development"
+          "buildTarget": "store:build:development",
+          "devRemotes": ["product", "cart", "about"]
         }
       },
       "defaultConfiguration": "development"
